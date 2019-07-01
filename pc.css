@@ -68,7 +68,7 @@ header .row>div:nth-child(1)>a:hover {
    
    background-position: -3727.68px 0px; 
    transition: background 0.8s steps(24);
-	
+   cursor: pointer;		
 }
 
 
@@ -118,6 +118,7 @@ header #right-search-form>#right-search-btn:hover,
 header #right-search-form>#right-search-btn:focus {
 	transform: scale(1.25);
 	transition: 0.2s;
+	cursor: pointer;
 }
 
 /* 로고밑 배너 */
@@ -204,7 +205,7 @@ header i.fa.fa-clock-o, header i.fa.fa-star, header i.fa.fa-smile-o, header i.fa
 
 /* 김총무님 */
 #board-info h1>a:nth-child(1) {
-	
+	cursor: pointer;
 	font-family: var(--fontGoyang);
 	font-size: 30px;
 	padding: 0 0 0 10px;
@@ -215,7 +216,7 @@ header i.fa.fa-clock-o, header i.fa.fa-star, header i.fa.fa-smile-o, header i.fa
 }
 
 #board-info h1>a:nth-child(1):hover {
-
+	
 	-webkit- animation: flash ease-in-out 1s infinite;
 	-moz-	 animation: flash ease-in-out 1s infinite;
 	-ms-	 animation: flash ease-in-out 1s infinite;
