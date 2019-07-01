@@ -78,6 +78,7 @@ header .row>div:nth-child(1)>a>img {
   display: none;
 
 }
+
 /*봉봉봉*/
 div#header-bar.container::before {
 	background: url(https://tgdimage.github.io/tgd/bong.png) no-repeat;
