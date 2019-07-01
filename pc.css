@@ -242,7 +242,7 @@ header i.fa.fa-clock-o, header i.fa.fa-star, header i.fa.fa-smile-o, header i.fa
 
 #board-info #viewers-area #viewers:after {
 
-    content: "명 공병줍다 쉬는 중";    /* 숫자 뒤에 들어갈 문구 */
+    content: "명 공병 줍다 쉬는 중";    /* 숫자 뒤에 들어갈 문구 */
     cursor: text;
 
 }
