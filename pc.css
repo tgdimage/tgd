@@ -67,7 +67,7 @@ header .row>div:nth-child(1)>a {
 header .row>div:nth-child(1)>a:hover {
    
    background-position: -3727.68px 0px; 
-   transition: background 0.7s steps(24);
+   transition: background 0.8s steps(24);
 	
 }
 
