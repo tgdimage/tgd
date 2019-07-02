@@ -78,17 +78,7 @@ header .row>div:nth-child(1)>a>img {
 
 }
 
-/*봉봉봉*/
-div#header-bar.container::before {
-	background: url(https://tgdimage.github.io/tgd/bong.png) no-repeat;
-    background-size: auto 78px;
-    position: absolute;
-    top: 7px;
-    margin-left: 150px;
-    width: 100px;
-    height: 78px;
-    content:"";
-}
+
 
 
 
