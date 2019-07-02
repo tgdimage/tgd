@@ -39,7 +39,7 @@
 html, body {
 	
     height: auto !important;
-    background: var(--bgColor);   
+    background: #F4F8FA;   
 }
 
 
@@ -68,7 +68,6 @@ header .row>div:nth-child(1)>a:hover {
    
    background-position: -3727.68px 0px; 
    transition: background 0.8s steps(24);
-   cursor: pointer;		
 }
 
 
@@ -96,7 +95,7 @@ div#header-bar.container::before {
 /* 검색창 */
 header #right-search-form>input[type=text] {
 
-    border: 3px solid var(--mainColor); /* 검색창 테두리 색 */
+    border: 3px solid #4579a0; /* 검색창 테두리 색 */
     border-radius: 15px;
 
 }
@@ -110,7 +109,7 @@ header #right-search-form>input[type=text]:focus {
 /* 검색 버튼 */
 header #right-search-form>#right-search-btn {
 
-    color: var(--mainColor); /* 검색창 옆 돋보기 색 */
+    color: #4579a0; /* 검색창 옆 돋보기 색 */
 	transition: 0.2s;
 }
 
@@ -118,7 +117,6 @@ header #right-search-form>#right-search-btn:hover,
 header #right-search-form>#right-search-btn:focus {
 	transform: scale(1.25);
 	transition: 0.2s;
-	cursor: pointer;
 }
 
 /* 로고밑 배너 */
@@ -132,7 +130,7 @@ header #header-bar>.row, #main .menu-wrapper {
 /* 트게더 광고 배너 */
 header #header-bar>.row {
 
-    border-top: 5px solid var(--mainColor) !important; /* 광고 배너 테두리 색 */
+    border-top: 5px solid #4579a0 !important; /* 광고 배너 테두리 색 */
 
 }
 
@@ -141,7 +139,7 @@ header #header-bar>.row {
 /* 광고 배너 광고 뱃지 */
 header #header-bar #header-top-notice strong.notice-badge {
 
-    background: var(--mainColor); /* 광고 배너 광고 뱃지 배경 색상 */
+    background: #4579a0; /* 광고 배너 광고 뱃지 배경 색상 */
     font-weight: bold;
     
 }
@@ -153,8 +151,8 @@ header i.fa.fa-clock-o, header i.fa.fa-star, header i.fa.fa-smile-o, header i.fa
 
 /* 좌측 배너 */
 #main .menu-wrapper {
-    border-right: 2px solid var(--bgColor);
-    border-bottom: 2px solid var(--bgColor);
+    border-right: 2px solid #F4F8FA;
+    border-bottom: 2px solid #F4F8FA;
     margin-bottom: 0.8em;
 }
 
@@ -163,7 +161,7 @@ header i.fa.fa-clock-o, header i.fa.fa-star, header i.fa.fa-smile-o, header i.fa
 /* 좌측 배너 헤더 */
 #main .menu-wrapper>.header {
 
-    background: var(--mainColor); /* 좌측 배너 제목 배경 색 */
+    background: #4579a0; /* 좌측 배너 제목 배경 색 */
     border-radius: 15px 15px 0 0;
 
 }
@@ -185,7 +183,7 @@ header i.fa.fa-clock-o, header i.fa.fa-star, header i.fa.fa-smile-o, header i.fa
 
 /* 메인 배너 */
 #main #main-content>div.frame {
-	border-top: solid 4px var(--mainColor);
+	border-top: solid 4px #4579a0;
 	border-radius: 15px;
 }
 
@@ -205,8 +203,7 @@ header i.fa.fa-clock-o, header i.fa.fa-star, header i.fa.fa-smile-o, header i.fa
 
 /* 김총무님 */
 #board-info h1>a:nth-child(1) {
-	cursor: pointer;
-	font-family: var(--fontGoyang);
+	font-family: 'Goyang', "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 30px;
 	padding: 0 0 0 10px;
 	width : 100px;
@@ -251,18 +248,18 @@ header i.fa.fa-clock-o, header i.fa.fa-star, header i.fa.fa-smile-o, header i.fa
 /* 메인 배너 글 공지 */
 #article-list>.article-list-row.notice {
 
-	background-color: var(--bgColor); /* 공지 배경 색 */
+	background-color: #F4F8FA; /* 공지 배경 색 */
 
 }
 
 #article-list>.article-list-row.notice:hover {
-    background-color: var(--cgColoer) !important;
+    background-color: #D4E2EC !important;
 }
 
 /* 글 추천 수 */
 #article-list>.article-list-row>.item>.list-header>span {
 
-    background-color: var(--mainColor); /* 글 추천 수 배경 색 */
+    background-color: #4579a0; /* 글 추천 수 배경 색 */
 
 }
 
@@ -299,7 +296,7 @@ header i.fa.fa-clock-o, header i.fa.fa-star, header i.fa.fa-smile-o, header i.fa
 
 .btn-primary {
 
-    background-color: var(--mainColor); /* 글 쓰기 버튼 배경 색 */
+    background-color: #4579a0; /* 글 쓰기 버튼 배경 색 */
 
    /* border-color: #;  글 쓰기 버튼 배경 색 */
 
@@ -343,7 +340,7 @@ header i.fa.fa-clock-o, header i.fa.fa-star, header i.fa.fa-smile-o, header i.fa
 
 .vote-btn[data-type="up"] span {
 
-	font-family: var(--fontYanol);
+	font-family: 'YanoljaYacheR', "Helvetica Neue", Helvetica, Arial, sans-serif;
 	
 	padding-top: 14px;
 
@@ -363,32 +360,32 @@ header i.fa.fa-clock-o, header i.fa.fa-star, header i.fa.fa-smile-o, header i.fa
 }
 
 #article-content-wrapper>.header {
-    border-top: 4px solid var(--mainColor);
-    background: var(--cgColoer);
+    border-top: 4px solid #4579a0;
+    background: #D4E2EC;
     padding: 0.6em 0.8em;
 }
 
 #article-content-wrapper>.footer {
-    border-bottom: 4px solid var(--mainColor);
-    background: var(--cgColoer);
+    border-bottom: 4px solid #4579a0;
+    background: #D4E2EC;
     padding: 0.5em 0.8em;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
-    background: var(--bgColor);
+    background: #F4F8FA;
     padding: 0.4em 0.5em;
 }
 
 /*페이지 숫자, 배경*/
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
-    background-color: var(--mainColor);
-    border-color: var(--bgColor);
+    background-color: #4579a0;
+    border-color: #F4F8FA;
 }
 
 
 /*공지, 수다, 허언갤.... */
 #article-list #article-list-category>a.active,  #article-list #article-list-category>a {
-    background: var(--cgColoer);
+    background: #D4E2EC;
 }
 
  #article-list #article-list-category>a:hover {
@@ -397,15 +394,15 @@ header i.fa.fa-clock-o, header i.fa.fa-star, header i.fa.fa-smile-o, header i.fa
 
 #article-list #article-list-category {
 	
-    border-top: 4px solid var(--mainColor);
-    background-color : var(--cgColoer);
+    border-top: 4px solid #4579a0;
+    background-color : #D4E2EC;
     
 }
 
 /* 공지 ! 아이콘*/
 #article-list #item #list-title #fa #fa-info-circle {
 	
-	color: var(--mainColor);
+	color: #4579a0;
 }
 
 #main .menu-wrapper > a > i.fa.fa-square {
